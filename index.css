@@ -3,6 +3,7 @@ body {
     background-color: #000;
     color: #fff;
     font-family: 'DotGothic16', sans-serif;
+    height: 100vh;
 }
 
 .container {
