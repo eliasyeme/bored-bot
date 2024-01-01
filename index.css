@@ -29,8 +29,7 @@ body {
     background: linear-gradient(45deg, rgba(255,0,82,1) 0%, rgba(255,145,0,1) 100%);
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover {
     cursor: pointer;
     border-radius: 2em;
     width: 20em;
@@ -38,9 +37,8 @@ body {
 }
 
 .btn:hover::after {
-    content: "Get";
-    font-weight: bold;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #fff;
+    content: " ";
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
 }
